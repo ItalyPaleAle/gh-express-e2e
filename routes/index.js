@@ -4,7 +4,7 @@ var products = require("../data/products.json");
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { products: [] });
+  res.render('index', { products: products });
 });
 
 module.exports = router;
